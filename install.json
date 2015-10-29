@@ -1,0 +1,21 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "body.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "room": {
+        "order": 1,
+        "title": "Room Name",
+        "description": "Enter the name of the public, <em>existing</em> room that you want to load into your Sidecar. You can create your public room by signing up for <a class=\"with-inherited-color with-underline\" href=\"https://gitter.im/login/github?action=signup&source=pricing.free\" target=\"_blank\">Gitter</a>.",
+        "type": "string",
+        "placeholder": "gitterHQ/sidecar"
+      }
+    }
+  }
+}
